@@ -1,0 +1,134 @@
+! Homepage: https://github.com/colduw/PGTAISOMS
+! Title: Cold's PGTAISOMS (Remove AI Buttons) Filter List
+! Description: Removes distracting AI buttons from pages
+! Expires: 8 hours
+! Version: 202503022145
+!
+! ______  _____  _____   ___   _____  _____  _____ ___  ___ _____ 
+! | ___ \|  __ \|_   _| / _ \ |_   _|/  ___||  _  ||  \/  |/  ___|
+! | |_/ /| |  \/  | |  / /_\ \  | |  \ `--. | | | || .  . |\ `--. 
+! |  __/ | | __   | |  |  _  |  | |   `--. \| | | || |\/| | `--. \
+! | |    | |_\ \  | |  | | | | _| |_ /\__/ /\ \_/ /| |  | |/\__/ /
+! \_|     \____/  \_/  \_| |_/ \___/ \____/  \___/ \_|  |_/\____/ 
+! Please   Get   This     A      I    Shit    Off     My   Screen
+! (or, for a family friendly name:)
+! Please   Get   This     A      I    Slop    Off     My   Screen
+!
+! Last Update — 2025/03/02 @ 21:45
+! https://bsky.app/profile/coldunwanted.net
+!
+! Google Docs Gemini button in navbar
+docs.google.com###docs-sidekick-button-container
+
+! Google Docs Gemini summarize button
+docs.google.com##.FormulaBarContainerGeminiSummarizeButton
+
+! Google Drive Gemini button in navbar
+drive.google.com###WWNEkf
+
+! Google Gemini button inside Google Apps iframe
+ogs.google.com##ul.ngVsM.u4RcUd li.j1ei8c:has-text(Gemini)
+
+! Google Mail Gemini button in navbar
+mail.google.com##.e5IPTd.r4vW1e
+
+! GitHub Copilot
+0.0.0.0 githubcopilot.com
+/github-copilot$xmlhttprequest,domain=github.com
+
+! GitHub Copilot buttons on the homepage
+github.com##.AppHeader-CopilotChat
+github.com##.copilotPreview__container
+github.com###blob-view-header-copilot-icon
+
+! GitHub Copilot in search
+github.com###query-builder-test-result-ask-copilot
+github.com##li.ActionList-sectionDivider:has-text(Copilot)
+github.com##li.ActionList-sectionDivider:has(+li.ActionList-sectionDivider:has-text(Copilot))
+
+! GitHub Copilot in settings
+github.com##li.cMktrU.Item__LiBox-sc-yeql7o-0:has-text(Copilot)
+
+! GitHub Copilot in menu
+github.com##nav-list ul.ActionListWrap li.ActionListItem:has-text(Copilot)
+
+! Bing Microsoft Copilot on the homepage
+www.bing.com##.cdxCopilotIconBg
+www.bing.com###codex
+
+! Bing Microsoft Copilot in search
+www.bing.com##.b_phead_sh_link
+www.bing.com##.b_phead_chat_link
+www.bing.com###b-scopeListItem-conv
+
+! Bing Microsoft Copilot in settings menu
+www.bing.com###chatresponse > .hb_top_sec.hb_section
+www.bing.com##.slide_down.hb_expanded.hb_expandible
+
+! DuckDuckGo Duck.ai on the homepage
+duckduckgo.com##.button_size-xs__kck8r.button_ghost___IPIW.button_button__GGtY1.header_aiChatButton__e_9yJ
+
+! DuckDuckGo Duck.ai in menu
+duckduckgo.com##.sideMenu_sectionLinks__3mM71 li:has-text(Duck.ai)
+duckduckgo.com##.nav-menu__list ul li:has-text(Duck.ai)
+
+! DuckDuckGo Assist & Chat buttons in navbar
+! They can at least can be easily turned off/hidden in https://duckduckgo.com/settings#aifeatures
+! Still here as it should be opt-in
+duckduckgo.com##.ofDl_1VxUG_EKc3b9E3x.XvPRmQVeIoCP5lQhICTv > li:has-text(Assist)
+duckduckgo.com##.ofDl_1VxUG_EKc3b9E3x.XvPRmQVeIoCP5lQhICTv > li:has-text(Chat)
+
+! DuckDuckGo Assist result
+duckduckgo.com##.m94aMCA3hTXDNQYZ_qAz > .react-module
+
+! Ecosia AI Chat in navbar
+www.ecosia.org##li.search-navigation__item:has-text(AI Chat)
+
+! Ecosia AI Chat in footer
+www.ecosia.org##.card--border.card--as-a.card.chat-card.footer-card
+
+! Brave Answer with AI
+/api/chatllm$xmlhttprequest,domain=search.brave.com
+
+! Brave Answer with AI on the homepage
+search.brave.com##.svelte-c3bjae.noscript-hide.subutton-wrapper
+search.brave.com##.svelte-19g7ebn.card
+search.brave.com##.svelte-sufnsi.llm.t-secondary.desktop-large-regular.suggestion
+
+! Brave Answer with AI in the settings menu
+! Note: this removes the option in the settings page as well,
+! uncomment this if you may, disable it, and then re-add it
+search.brave.com##section.svelte-5r82hb:has-text(Answer with AI)
+
+! Brave Answer with AI result
+search.brave.com###llm-snippet
+
+! Yahoo AI results
+search.yahoo.com##.searchCenterMiddle.reg > .first
+! Fix up some margin styling
+search.yahoo.com##div#results:style(margin-top: 0px !important)
+
+! Twitter Grok
+0.0.0.0 grok.x.com
+/GrokHome$xmlhttprequest,domain=x.com
+/CreateGrokConversation$xmlhttprequest,domain=x.com
+
+! Twitter Grok button overlay
+x.com##.r-5wli1b.r-bnwqim.r-1jte41z.r-hvns9x.r-1rtiivn.r-6gpygo.r-173mn98.css-175oi2r
+
+! Twitter Grok button in navbar
+x.com##a.r-1loqt21.r-1ny4l3l.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:has-text(Grok)
+
+! Twitter Grok summarize this post
+x.com##.r-1wtj0ep.r-1cmwbt1.r-18u37iz.r-1awozwy.css-175oi2r > .r-1h0z5md.r-18u37iz.css-175oi2r
+
+! Twitter Grok profile summary (hover)
+x.com##.r-1wzrnnt.r-1777fci.css-175oi2r
+! Twitter Grok profile summary (page)
+x.com##button.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-1qi8awa.r-2yi16.r-1wron08.r-6gpygo.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r[aria-label="Profile Summary"]
+
+! Twitter Grok enhance post
+x.com##div.r-cpa5s6.r-14tvyh0.css-175oi2r button[data-testid="grokImgGen"]
+
+! Twitter Grok post follow up/faq
+x.com##.r-bnwqim.r-dnmrzs.r-1s2bzr4.css-175oi2r
