@@ -1,10 +1,10 @@
 # PGTAISOMS
-"Please Get This AI Slop Off My Screen" — or "Please Get This AI S#!t Off My Screen" is a small uBlock Origin Filter List to remove annoying and/or distracting AI buttons/features from websites
+"Please Get This AI Slop Off My Screen" — or "Please Get This AI S#!t Off My Screen" is a small uBlock Origin Filter List to hide annoying and/or distracting AI buttons/features from websites
 
 <details>
   <summary>The aforementioned websites include:</summary>
   <ul>
-    <li>Google Gemini from Google Drive, Google Mail, and the Google Apps iFrame</li>
+    <li>Google Gemini from Google Drive, Google Mail, and the Google Apps iframe</li>
     <li>GitHub Copilot from the homepage, search, settings and menu</li>
     <li>Microsoft Copilot from Bing's homepage, search, settings</li>
     <li>Duck.ai, AI Assist and AI Chat from DuckDuckGo's homepage, menu, navbar, and search results</li>
